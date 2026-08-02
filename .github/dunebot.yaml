@@ -8,6 +8,8 @@ approve:
         prefix: "dependabot/go_modules"
       dependabot_npm:
         prefix: "dependabot/npm_and_yarn"
+      dependabot_gha:
+        prefix: "dependabot/github_actions"
 
 merge:
   include:
@@ -18,4 +20,6 @@ merge:
       dependabot_npm:
         age: 2 days
         prefix: "dependabot/npm_and_yarn"
+      dependabot_gha:
+        prefix: "dependabot/github_actions"
   method: squash
